@@ -59,6 +59,24 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 10px;
 }
 
+.partner-logos img {
+    margin-right: 50px;
+    margin-top: 25px;
+    display: inline;
+    max-height: 60px;
+    opacity: 0.8;
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+    filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
+}
+
+.partner-logos img:hover {
+    -webkit-filter: grayscale(0);
+    filter: none;
+    opacity: 1;
+}
+}
+
 .footer-text {
     padding-top:20px;
     padding-bottom:10px;
