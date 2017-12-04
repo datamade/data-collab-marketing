@@ -19,13 +19,46 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 20px;
 }
 
-.jumbotron {
+.splash-photo {
     margin-top: 60px;
+    background-image:
+        linear-gradient(
+          rgba(0, 0, 0, 0.6),
+          rgba(0, 0, 0, 0.6)
+        ),
+        url('/images/newsroom.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 350px;
 }
 
 .content .section {
     margin-top: 40px;
     margin-bottom: 60px;
+}
+
+.row.accent {
+    background-color: #333;
+    color: white;
+}
+
+.splash-motto,
+.row.accent h2 {
+    color: #ff8700;
+}
+
+a {
+    color: #1528ba;
+}
+
+.row.accent a {
+    color: #8592f8;
+}
+
+.row.accent a:hover,
+.row.accent a:focus {
+    color: #c8cefb;
 }
 
 .content .section:before {
@@ -79,6 +112,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .table-indent {
     margin-left: 15px;
+}
+
+.underlined {
+    border-bottom: 1px solid #333;
 }
 
 .footer-text {
