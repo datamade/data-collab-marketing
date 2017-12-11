@@ -87,8 +87,8 @@ a {
     /* https://css-tricks.com/hash-tag-links-padding/ */
     display: block;
     content: " ";
-    margin-top: -55px;
-    height: 55px;
+    margin-top: -70px;
+    height: 70px;
     opacity: 0;
     pointer-events: none;
 }
