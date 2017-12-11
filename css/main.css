@@ -9,6 +9,14 @@ h1, h2, h3, h4, h5, h6 {
 
 .brand {
     font-family: 'Archivo Black', 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin-left: 5px;
+}
+
+/* Align subtitle with title */
+@media (min-width: 462px) {
+    .subtitle-brand {
+        margin-left: 40px;
+    }
 }
 
 .nav li {
@@ -36,6 +44,13 @@ h1, h2, h3, h4, h5, h6 {
     background-repeat: no-repeat;
     background-position: center center;
     height: 350px;
+}
+
+.motto {
+    color: white;
+    background: #333;
+    padding: 10px;
+    line-height: 150%;
 }
 
 .content .section {
@@ -110,10 +125,22 @@ a {
     filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
 }
 
+img.big-logo {
+    max-height: 50px;
+}
+
+img.small-logo {
+    max-height: 80px;
+}
+
 .partner-logos img:hover {
     -webkit-filter: grayscale(0);
     filter: none;
     opacity: 1;
+}
+
+.partner-logos a:hover {
+    text-decoration: none;
 }
 
 .table-indent {
