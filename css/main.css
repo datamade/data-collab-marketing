@@ -46,6 +46,43 @@ h1, h2, h3, h4, h5, h6 {
     height: 350px;
 }
 
+@media (max-width: 285px) {
+    .splash-photo {
+        height: 650px;
+    }
+}
+
+@media (min-width: 285px) and (max-width: 350px) {
+    .splash-photo {
+        height: 600px;
+    }
+}
+
+@media (min-width: 350px) and (max-width: 400px) {
+    .splash-photo {
+        height: 500px;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 450px) {
+    .splash-photo {
+        height: 450px;
+    }
+}
+
+@media (min-width: 450px) and (max-width: 550px) {
+    .splash-photo {
+        height: 400px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 985px) {
+    /* Bump back up when we hit sm -> md breakpoint */
+    .splash-photo {
+        height: 450px;
+    }
+}
+
 .motto {
     color: white;
     background: #333;
@@ -56,6 +93,10 @@ h1, h2, h3, h4, h5, h6 {
 .content .section {
     margin-top: 40px;
     margin-bottom: 60px;
+}
+
+.content .section.first {
+    margin-top: 0px;
 }
 
 .row.accent {
