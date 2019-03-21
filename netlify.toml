@@ -1,0 +1,8 @@
+[build]
+    base = "."
+    publish = "."
+
+[[redirects]]
+    from = "https://chicagodatacollaborative.netlify.com/*"
+    to = "https://chicagodatacollaborative.org/:splat"
+    status = 301
